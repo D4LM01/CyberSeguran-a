@@ -8,7 +8,7 @@ O código encontrado no arquivo:
 
 é a flag em hexadecimal e criptografada em XOR.
 
-Para decodificar textos em XOR é necessário usar uma chave para encontrar o texto limpo. Porém, caso já se tenha o texto limpo, é possível utilizá-lo como **key** para encontrar a key real da mensagem.
+Para decodificar textos em XOR é necessário usar uma chave (key) para encontrar o texto limpo. Porém, caso já se tenha o texto limpo, é possível utilizá-lo como **key** para encontrar a key real da mensagem.
 
 Sabemos que o começo da flag se dá por:
 
@@ -28,25 +28,13 @@ c4t!c
 
 Porém, apenas parte desse código é a chave necessária, já que não sabíamos qual parte do texto codificado era o texto `FLAG{`.
 
-Tentando usar a key:
-
-```text
-c4t!c
-```
-
-encontramos o código:
+Tentando usar a key "c4t!c" encontramos o código:
 
 ```text
 FLAG{/p'<$lHg$!g6f0_m14u*
 ```
 
-Contudo, ao remover o último `c` e usar a key:
-
-```text
-c4t!
-```
-
-encontramos:
+Contudo, ao remover o último `c` e usar a key "c4t!" encontramos:
 
 ```text
 FLAG{x0r_k3y_r3c0v3r_m14u}
