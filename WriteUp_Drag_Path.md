@@ -1,7 +1,6 @@
 ## Analise do Texto
 
-O titulo e o texto presentes no enunciado da questão são respectivamente o nome e um fragmento da letra da musica Drag Path da banda Twenty One Pilots,
-oque indica uma ligação entre a banda e a resposta.
+O titulo e o texto presentes no enunciado da questão se referem, respectivamente, ao nome e a um fragmento da letra da musica Drag Path da banda Twenty One Pilots.
 
 ## Analise da Imagem
 
